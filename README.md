@@ -11,3 +11,13 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
+
+
+
+Steps to deploy token
+1. npm i
+2. node v16.14.0 (must have this vertion)
+3. create .env file and add your account private key in .env file
+4. npx hardhat run .\script\depoly_myToken.js --network testnet
+
+
