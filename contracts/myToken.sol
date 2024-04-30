@@ -12,7 +12,7 @@ contract USDTToken is Context, Ownable, Staking {
      */
     string public _name;
     string public _symbol;
-    uint8 public _decimals;
+    uint256 public _decimals;
     uint256 public _totalSupply;
 
     mapping(address => uint256) private _balances;
@@ -41,7 +41,7 @@ contract USDTToken is Context, Ownable, Staking {
     constructor(
         string memory name_,
         string memory symbol_,
-        uint8 decimals_,
+        uint256 decimals_,
         uint256 totalSupply_
     ) {
         _name = name_;

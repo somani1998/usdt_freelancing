@@ -3,7 +3,7 @@ const hre = require("hardhat");
 async function main() {
   const tokenName = "USDT";
   const symbol = "USDT";
-  const totalSupply = 10**6;
+  const totalSupply = "1000000000000000000000000";
   const decimals = 18;
 
   const USDTToken = await hre.ethers.getContractFactory("USDTToken");
