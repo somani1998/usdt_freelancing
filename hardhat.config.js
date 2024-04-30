@@ -45,6 +45,10 @@ module.exports = {
     testnet: {
       url: "https://bsc-testnet-rpc.publicnode.com",
       chainId: 97,
+      gasPrice: 15000000000,
+      tags: [],
+      gas: 6_000_000,
+      gasPrice: 200_000_000_000,
       timeout: 3600000,
       timeoutBlocks: 1500,
       accounts: real_accounts,
@@ -52,6 +56,10 @@ module.exports = {
     mainnet: {
       url: "https://bsc-rpc.publicnode.com",
       chainId: 56,
+      gasPrice: 15000000000,
+      tags: [],
+      gas: 6_000_000,
+      gasPrice: 200_000_000_000,
       timeout: 3600000,
       timeoutBlocks: 1500,
       accounts: real_accounts,
